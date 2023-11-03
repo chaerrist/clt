@@ -234,40 +234,46 @@
 # user2 = Teacher("Bob", 25, "01033334444")
 
 # print(getPersonName(user1))
-# print(getPersonName(user2))
+# # print(getPersonName(user2))
 
-## 캡슐화
+# ## 캡슐화
 
-class Person :
-    def __init__(self, name, age, num) :
-        self.name = name
-        self.age = age
-        self.number = num
+# class Person :
+#     def __init__(self, name, age, num) :
+#         self.name = name
+#         self.age = age
+#         self.number = num
     
-    def getName(self) :
-        return self.name
+#     def getName(self) :
+#         return self.name
     
-    def setName(self, new) :
-        self.name = new
-        return
+#     def setName(self, new) :
+#         self.name = new
+#         return
     
-    def getAge(self) :
-        return self.age
+#     def getAge(self) :
+#         return self.age
     
-    def getNumber(self) :
-        return self.number
+#     def getNumber(self) :
+#         return self.number
     
-    def setNumber(self, newNum) :
-        self.number = newNum
-        return
+#     def setNumber(self, newNum) :
+#         self.number = newNum
+#         return
 
 
 
 
-p1 = Person("python", 23, "01012345678")
-p2 = Person("hello", 25, "01022224444")
-p1.getNumber()
-p2.getNumber()
+# p1 = Person("python", 23, "01012345678")
+# p2 = Person("hello", 25, "01022224444")
+# p1.getNumber()
+# p2.getNumber()
 
-p1.setNumber("11111111111")
-p1.setNumber("22222222222")
+# p1.setNumber("11111111111")
+# p1.setNumber("22222222222")
+
+import calc as cm
+
+cl = cm.Calc()
+
+print(cl.add(1,2))
